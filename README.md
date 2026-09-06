@@ -8,9 +8,9 @@ pm 数字员工岗位包（每岗位一个独立包，与 dsh-job-secretary 同�
 |---|---|---|
 | `agent.cordis.yml` | `$DSH_HOME/.agent-presets/pm/` | 岗位 preset 组合：岗位 persona + skill 加载 |
 | `preset.yml` | `$DSH_HOME/.agent-presets/pm/` | preset 显示元数据 |
-| `SKILL.md` | `$DSH_HOME/skills/pm-job-skill/` | 岗位技能：岗位专项方法 |
+| `SKILL.md` | `$DSH_HOME/skills/pm/` | 岗位技能：岗位专项方法 |
 
-> preset id 与 skill name 不同：preset 目录名 `pm`，SKILL.md frontmatter `name: pm-job-skill`。
+> preset 与 skill 同名同位：preset 落 `$DSH_HOME/.agent-presets/pm/`，skill 落 `$DSH_HOME/skills/pm/`（SKILL.md frontmatter `name: pm`）。
 
 ## 安装
 
